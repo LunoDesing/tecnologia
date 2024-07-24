@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-Control" content="s-maxage=3600">
+    <meta http-equiv="Cache-Control" content="max-age=3600">
+
+
+    <link rel="stylesheet" href="url-to-cdn/splide.min.css">
+    <link rel="stylesheet" href="estilos/normalize.css?v=9">
+    <link rel="stylesheet" href="estilos/styles.css?v=9">
+    <link rel="stylesheet" href="estilos/mediaQueries.css?v=9">
+    <title>Mi tienda</title>
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <nav class="nav container" id="nav">
+
+            <a href="index.html">
+                <img  class="nav__logo" src="assets/vectores/logo.svg" alt="" id="clearCacheBtn">
+            </a>
+
+            <div class="nav__icons">
+
+                <a href="#nav">
+                    <img class="nav__open" src="assets/vectores/hamburguesa.svg" alt="">
+                </a>
+
+                <a href="#">
+                    <img class="nav__close" src="assets/vectores/cruz.svg" alt="">
+                </a>
+            </div>
+            <ul class="nav__items">
+
+                <li class="nav__links">
+                    <a class="nav__link" href="#ofertas">Ofertas</a>
+                </li>
+
+                <li class="nav__links">
+                    <a class="nav__link" href="#productos">Productos</a>
+                </li>
+                <li class="nav__links">
+                    <a class="nav__link" href="#redes">Mis Redes</a>
+                </li>
+
+            </ul>
+
+        </nav>
+        <div class="header__text">
+            <h1 class="header__title">Todo lo que buscas, en un solo lugar</h1>
+        </div>
+
+        <img class="header__wave" src="assets/vectores/wave.svg" alt="">
+
+    </header>
+    <main>
+
+        <section class="ofertas splide" id="ofertas">
+
+            <h4 class="ofertas__title">Ofertas</h4>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/imagenes/promo1.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/imagenes/promo2.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/imagenes/promo3.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/imagenes/promo4.webp" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+
+
+
+        <section class="productos" id="productos">
+
+      
+            <h5 class="productos__title">Elige la categoria que estas buscando</h5>
+            <div class="filters">
+
+
+                <button class="filter-btn active" data-filter="all">Todo</button>
+                <button class="filter-btn" data-filter="category1">Audio/Video</button>
+                <button class="filter-btn" data-filter="category2">Entretenimiento</button>
+                <button class="filter-btn" data-filter="category3">Hogar</button>
+                <button class="filter-btn" data-filter="category4">Accesorios</button>
+                <button class="filter-btn" data-filter="category5">Cocina</button>
+            </div>
+
+            <h5 class="productos__title">Ó ingresa el nombre del producto</h5>
+            <article class="busqueda">
+                <input class="busqueda__input" type="text" id="searchInput" placeholder="que buscas...?">
+                <button class="productos__cta" id="searchButton">Buscar</button>
+            </article>
+
+            <div class="products">
+
+                <!-- --------------------- Audio/Video -------------------------- -->
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auriculares bluetooth <br> Oryx</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/bluetooth/au1.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$4.999</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auriculares bluetooth <br> Seis</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/bluetooth/au2.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$4.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auriculares bluetooth <br> Genius</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/bluetooth/au3.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$4.500</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auriculares bluetooth <br> Seis</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/bluetooth/au4.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$4.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auriculares bluetooth <br> Xplode</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/bluetooth/au5.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$4.900</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auriculares bluetooth <br> Blackview 5.1</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/bluetooth/au6.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$5.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auriculares bluetooth <br> true wireless A6s</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/bluetooth/au7.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$4.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auriculares bluetooth <br> Dinax Aurifly 01</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/bluetooth/au8.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$4.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auriculares bluetooth <br> Sony M10</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/bluetooth/au9.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$4.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auriculares bluetooth <br>M19/M20/M30 V5.3</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/bluetooth/au10.webp"
+                        alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$4.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auric. Dinax vincha <br> c/ Mic dx-au2micro</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/vincha/av1.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$5.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auric. Suono vincha <br> LH47 5.0+edr</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/vincha/av2.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$5.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auric. Sony vincha <br> dx-au2micro</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/vincha/av3.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$5.100</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auric. Bullter vincha <br> ficha 3.5mm</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/vincha/av4.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$5.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auric. Suono vincha <br> Bluetooth Gatito Niños</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/vincha/av5.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$6.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auric. Seis vincha <br> Bluetooth Gatito Niños </h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/vincha/av6.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$6.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auric. Dinax vincha <br>LEGATUS LH47 5.0+edr</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/vincha/av7.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$5.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auric. Sonic vincha <br> BT P47 5.0+EDR</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/vincha/av8.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$5.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auric. bluet. vincha <br>Plegable YO8 P15</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/vincha/av9.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$5.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Auric. Philip vincha <br> DX100087 3.5mm</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/auriculares/vincha/av10.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$5.300</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Parlante Bluetooth <br> ORYX 852</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/parlantes/pa1.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$23.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Parlante Bluetooth <br> ORYX 853</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/parlantes/pa2.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$23.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Parlante Bluetooth <br> ORYX Liverpool</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/parlantes/pa3.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$199.999</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+                <div class="product category1">
+
+                    <h2 class="product__title">Parlante Bluetooth <br> ORYX Oslo</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/parlantes/pa4.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$109.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+
+                </div>
+
+
+
+
+                <!-- --------------------- Entretenimiento -------------------------- -->
+
+
+                <div class="product category2">
+                    <h2 class="product__title"> joystick Pc Vibration<br> para PS4</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/entretenimiento/en1.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$15.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category2">
+                    <h2 class="product__title"> Camara Gadnic<br> Sumergible 30m4</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/entretenimiento/en2.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$45.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category2">
+                    <h2 class="product__title"> Proyector Gadnic<br> 2000 lumenes</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/entretenimiento/en3.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$55.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category2">
+                    <h2 class="product__title"> Consola SUP<br> 400 juegos </h2>
+                    <img class="img product__img" src="assets/imagenes/productos/entretenimiento/en4.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$7,999</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category2">
+                    <h2 class="product__title">Drone SUONO<br> cámara wifi</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/entretenimiento/en5.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$35.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category2">
+                    <h2 class="product__title">Velador Led Cargador <br> Parlante Bluetooth </h2>
+                    <img class="img product__img" src="assets/imagenes/productos/entretenimiento/en6.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$16.500</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category2">
+                    <h2 class="product__title">Joystick p/ Nintendo<br>PC y Android</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/entretenimiento/en7.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$50.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category2">
+                    <h2 class="product__title">Luz Led Multicolor<br>Bluetooth/Parlante</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/entretenimiento/en8.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$5.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category2">
+                    <h2 class="product__title">Lámapra esquinero<br>Led Rgb minimalista</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/entretenimiento/en9.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$25.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category2">
+                    <h2 class="product__title">Aro Luz Led Selfie<br> 3 Luces + Tripode</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/entretenimiento/en10.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$22.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+
+
+
+                <!-- --------------------- Hogar -------------------------- -->
+
+
+                <div class="product category3">
+
+                    <h2 class="product__title">Corta Pelo Barba <br> Usb Color Azul</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/hogar/ho1.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$6.800</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category3">
+
+                    <h2 class="product__title">Jarra Pava Electrica<br>Spica Sp-930 Acerol</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/hogar/ho2.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$8.800</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category3">
+
+                    <h2 class="product__title">Lámpara escritorio <br> Led 3.5w usb</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/hogar/ho3.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$10.800</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category3">
+
+                    <h2 class="product__title">Secador De Pelo <br>2200w</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/hogar/ho4.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$17.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category3">
+
+                    <h2 class="product__title">Planchita de cabello <br>ceramic tecnology</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/hogar/ho5.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$6.800</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category3">
+
+                    <h2 class="product__title">Reloj Despertador <br>Alarma Led Gadnic</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/hogar/ho6.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$7.800</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category3">
+
+                    <h2 class="product__title">Soporte TV/Monitor<br>Force L40-222</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/hogar/ho7.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$7.800</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category3">
+
+                    <h2 class="product__title">Timbre Inalámbrico<br>Analógico 100 Metros</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/hogar/ho8.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$6.800</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category3">
+
+                    <h2 class="product__title">Difusor Gadnic Sh7<br> Humidif. Aromatizante</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/hogar/ho9.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$7.800</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category3">
+
+                    <h2 class="product__title">Cuchara Medidora<br>balanza de cocina</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/hogar/ho10.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$4.500</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+
+
+
+
+
+
+                <!-- --------------------- Accesorios -------------------------- -->
+
+
+
+                <div class="product category4">
+                    <h2 class="product__title">Reloj Inteligent Kt58<br>Xiaom Samsung Moto</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/accesorios/ac1.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$43.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category4">
+                    <h2 class="product__title">Reloj Smartwatch Sumergible<br>Dos Mallas metal</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/accesorios/ac2.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$46.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category4">
+                    <h2 class="product__title">Reloj Smartband ZL02D 1.28"<br>malla negra</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/accesorios/ac3.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$29.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category4">
+                    <h2 class="product__title">Reloj Smartwatch Sumergible<br>Dos Mallas rosa</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/accesorios/ac4.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$59.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category4">
+                    <h2 class="product__title">Reloj Smartwatch Nictom<br> Nt03 Sumergible Negro</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/accesorios/ac5.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$23.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category4">
+                    <h2 class="product__title">Reloj Xiaomi Lite Redmi<br>malla black de tpu</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/accesorios/ac6.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$43.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category4">
+                    <h2 class="product__title">Reloj Smartband Noga Band<br>NG-SB01 malla negra</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/accesorios/ac7.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$7.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category4">
+                    <h2 class="product__title">Reloj Smartwatch I8 Bluetooth<br>Android Ios Sport</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/accesorios/ac8.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$7.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category4">
+                    <h2 class="product__title">Reloj Smartwatch Suono<br> Snri-100</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/accesorios/ac9.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$19.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category4">
+                    <h2 class="product__title">Reloj Premium Smartwatch<br>C300 Bluetooth</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/accesorios/ac10.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$7.600</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+
+
+
+                <!-- --------------------- Cocina -------------------------- -->
+
+
+
+                <div class="product category5">
+                    <h2 class="product__title">Stanley Termo Clásico <br>1.4 LTS Asa Plegable</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/cocina/co1.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$72.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category5">
+                    <h2 class="product__title">Set De Cocina Ollas + Sartén<br>Antiadherente 4 Piezas</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/cocina/co2.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$42.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category5">
+                    <h2 class="product__title">Balanza Para Cocina<br>Capacidad máxima 5kl</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/cocina/co3.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$14.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category5">
+                    <h2 class="product__title">Set Matero Mate Acero <br>Inox Termico</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/cocina/co4.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$13.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category5">
+                    <h2 class="product__title">Olla a presión Marmicoc<br>OLLTRAT 7L </h2>
+                    <img class="img product__img" src="assets/imagenes/productos/cocina/co5.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$60.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category5">
+                    <h2 class="product__title">Juguera eléctrica Ultracomb<br>con accesoriose</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/cocina/co6.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$45.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category5">
+                    <h2 class="product__title">Tostadora Ultracomb<br> TO 4005 roja 220V</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/cocina/co7.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$72.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category5">
+                    <h2 class="product__title">Cafetera Backelita <br> C/ Pico</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/cocina/co8.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$10.500</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category5">
+                    <h2 class="product__title">Licuadora Peabody<br>Pe-ln805 Jarra Vidrio</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/cocina/co9.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$35.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+                <div class="product category5">
+                    <h2 class="product__title">Juego Cubiertos 24 Pzs<br>marca Tramontina</h2>
+                    <img class="img product__img" src="assets/imagenes/productos/cocina/co10.webp" alt="">
+                    <div class="product__precio">
+                        <div class="product__text1">Precio</div>
+                        <div class="product__text2">$20.000</div>
+                    </div>
+                    <a class="product__footer" href="https://wa.link/wukc3b">
+                        <img class="product__icon" src="assets/vectores/whatsappWHITE.svg" alt="">
+                        <h6 class="product__btn">consultar</h6>
+                    </a>
+                </div>
+
+
+
+
+
+            </div>
+
+            <button class="productos__cta" id="loadMoreAll" style="display:none;">Cargar más</button>
+
+        </section>
+        <!-- 
+        <section class="ubicacion">
+            <h4 class="ubicacion__title">¿Dónde estamos?</h4>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.0876738122856!2d-65.20664669999992!3d-26.8371636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d6dc2248763%3A0xd0fd743f18d52725!2sOficina!5e0!3m2!1ses-419!2sar!4v1709547697050!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a class="ubicacion__cta" href="https://maps.app.goo.gl/kzmMPWWSo8YhQu5M7">Ver ubicacion</a>
+        </section> -->
+
+        <!-- <section class="correo">
+
+            <div class="correo__container">
+
+                <article class="correo__izquierda">
+
+                    <h4 class="correo__title">Contactanos</h4>
+
+                    <form class="correo__form" action="index.php" method="post">
+
+                        <input class="correo__input" type="text" id="name" name="name" placeholder="nombre">
+                        <input class="correo__input" type="email" id="email" name="email" placeholder="tu correo">
+                        <textarea class="correo__input correo__input--message" name="message" id="message"
+                            placeholder="tu mensaje"></textarea>
+                        <input class="correo__cta" type="submit" id="enviar" name="enviar" value="enviar">
+
+                    </form>
+
+
+                </article>
+
+                <article class="correo__derecha">
+
+                    <h4 class="correodos__title">Si prefieres, tambien puedes contactarnos por whatsapp</h4>
+
+                    <a class="whatsapp__cta" href="#">
+                        <img class="whatsapp__icon" src="assets/vectores/whatsapp_redondo.svg" alt="">Enviar
+                        consulta</a>
+
+                    <h5 class="correo__horarios">
+                        <b>Horario de atencion:</b> <br> lunes a viernes <br> 9:00 a 13hs - 17:00 a 20:30 <br> sabados
+                        de 9:00 a 13:00hs
+                    </h5>
+
+                    <article class="social">
+                        <h5 class="social__title">Siguenos en nuestras redes</h5>
+                        <div class="social__icons">
+                            <a href=""><img class="social__icon" src="assets/vectores/facebook_redondo.svg" alt=""></a>
+                            <a href=""><img class="social__icon" src="assets/vectores/instagram_redondo.svg" alt=""></a>
+                        </div>
+                    </article>
+
+
+
+
+
+
+
+                </article>
+
+            </div>
+
+        </section> -->
+
+    </main>
+
+    <footer class="footer" id="redes">
+
+        <div class="footer__container">
+
+            <div class="footer__contenido">
+                <img class="footer__img" src="assets/vectores/logo.svg" alt="">
+                <div class="footer__grupo2">
+                    <h5 class="footer__text">sígueme en mis redes</h5>
+                    <div class="footer__icons">
+                        <img class="footer__icon" src="assets/vectores/facebook_redondo.svg" alt="">
+                        <img class="footer__icon" src="assets/vectores/instagram_redondo.svg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer__copy">
+                &copy 2024 "TecnoTech" - todos los derechos reservados - <br>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="javascript/scripts.js?v=9"></script>
+</body>
+
+</html>
